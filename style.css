@@ -1,0 +1,411 @@
+
+
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-area {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)),
+  url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+  background-position: center center;
+  background-size: cover;
+}
+/* default css end */
+
+
+/* navbar regular css start */
+.navbar-area {
+  background:blue;
+  border-bottom: 1px solid #000;
+ height:50px;
+  
+}
+.site-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a.site-logo {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+ 
+}
+.site-navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  
+}
+.site-navbar ul li a {
+  color: #fff;
+  padding: 4px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+.site-navbar ul li a:hover {
+  background-color: black;
+  
+}
+/* navbar regular css end */
+
+
+/* nav-toggler css start */
+.nav-toggler {
+  border: 3px solid #fff;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 39px;
+  display: none;
+}
+.nav-toggler span, 
+.nav-toggler span:before, 
+.nav-toggler span:after {
+  width: 28px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  transition: .3s;
+}
+.nav-toggler span:before {
+  content: '';
+  transform: translateY(-9px);
+}
+.nav-toggler span:after {
+  content: '';
+  transform: translateY(6px);
+}
+.nav-toggler.toggler-open span {
+  background-color: transparent;
+}
+.nav-toggler.toggler-open span:before {
+  transform: translateY(0px) rotate(45deg);
+}
+.nav-toggler.toggler-open span:after {
+  transform: translateY(-3px) rotate(-45deg);
+}
+/* nav-toggler css start */
+
+
+/* intro-area css start */
+.intro-area {
+  height: calc(100vh - 61px);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.intro-area h2 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+.intro-area p {
+  font-size: 18px;
+}
+/* intro-area css end */
+
+
+
+
+
+
+
+.ul-ul{
+  height: 350px;
+width: 300px;
+background-color: black;
+
+}
+li{
+margin-left: 20px;
+list-style: none;
+font-size: 20px;
+font-size:19px;
+line-height: 32px;
+margin-top: 7px;
+max-width: 300px;
+}
+a{
+text-decoration: none;
+border-radius: 9px;
+color: #fff;
+}
+
+
+/* -------------------pen */
+.pen{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 8px;
+}
+.pen3{
+max-width: 450px;
+line-height: 25px;
+font-size: larger;
+font-family: sans-serif;
+background-color: aliceblue;
+margin: 9px;
+}
+.pen4{
+width: 500px;
+position: relative;
+}
+.pen4 img{
+width:100%;
+height: 350px;
+border-radius: 9px;
+
+}
+.pet{
+position: absolute;
+bottom:8px;
+color: #fff;
+margin-left: 7px;
+margin-right: 8px;
+font-size: 18px;
+line-height: 25px;
+background-color: black;
+border-radius: 7px;
+}
+.pet-2{
+margin-left: 9px;
+}
+.pen5{
+display: flex;
+}
+.pen5{
+max-width: 300px;
+
+}
+.pen5 img{
+width:100%;
+height: 115px;
+margin: 4px;
+margin-top: 0px;
+border-radius: 9px;
+}
+.pot{
+width: 450px;
+margin-left:10px;
+}
+.btn2{
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+}
+.yes{
+margin-left: 9px;
+}
+.yes-yes{
+margin-top: 9px;
+margin-left: 9px;
+}
+.meet{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+background-color: red;
+}
+.meet2{
+justify-content: space-evenly;
+}
+/* -------------------- */
+.cup{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color:gainsboro;
+}
+
+.cup2{
+width: 340px;
+margin: 9px;
+
+}
+.cup2 img{
+width: 100%;
+height: 250px;
+border-radius: 6px;
+}
+.cup3{
+max-width: 550px;
+margin-top:8px;
+line-height:19px ;
+background-color: gainsboro;
+height: 250px;
+color: #000;
+padding-left: 8px;
+
+}
+.cup4{
+width: 350px;
+margin: 9px;
+}
+.cup4 img{
+width: 100%;
+height: 250px;
+border-radius: 6px;
+
+
+}
+.cuv{
+height: 100px;
+color: whitesmoke;
+padding-left: 6px;
+background-color:blue ;
+}
+.pim{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.pim2{
+width: 308px;
+margin: 5px;
+}
+.pim2 img{
+width: 100%;
+height: 200xp;
+border-radius:15px;
+box-shadow: 4px  4px;
+}
+.ho{
+  font-size: 30px;
+  margin-left: 48px;
+  font-family: monospace;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  color: aqua;
+}
+.ho2{
+ font-size: 30px;
+  margin-left: 48px;
+  font-family: monospace;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  color: aqua;
+}
+.fo{
+background-color:black;
+
+}
+.co{
+text-align: center;
+color: #fff;
+}
+.vo{
+width:90px;
+height: 30px;
+background-color:black;
+color: #fff;
+border-radius:7px;
+margin-bottom:3px;
+font-size: larger;
+}
+
+
+
+
+
+
+
+
+/* mobile breakpoint start */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+  /* navpadding-left: 70px;bar css for mobile start */
+  .nav-toggler{
+    display: block;
+  }
+  .site-navbar {
+    min-height: 60px;
+  }
+  .site-navbar ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+    left: 0;
+    top: 60px;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #444;
+    background-color: rgba(0,0,0,.75);
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s;
+  }
+  .site-navbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .site-navbar ul li a {
+    padding: 25px;
+  }
+  .site-navbar ul li a:hover {
+    background-color: rgba(255,255,255,.1);
+  }
+  .site-navbar ul.open {
+    max-height: 100vh;
+    overflow: visible;
+  }
+  .intro-area h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  } 
+  .pen3{
+  max-width:100%;
+  }
+ .pot{
+width: 250px;
+margin-left:10px;
+}
+.pen5{
+min-width:100% ;
+}
+.pen5 img{
+width: 100%;
+}
+/* =========cup3============ */
+cup3{
+height:460px;
+}
+.pe2{
+
+}
+pe4{
+width:350px;
+}
+pen4 img{
+width: 100%;
+height: 200px;
+}
+}
